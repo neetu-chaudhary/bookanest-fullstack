@@ -1,0 +1,141 @@
+
+body {
+    font-family: "Plus jakarta sans", sans-serif !important;
+    display:flex ;
+    flex-direction: column ;
+    min-height: 100vh;
+}
+.container{
+    flex: 1;
+}
+
+/* navbar */
+.navbar {
+    height: 5rem;
+    background-color: white;
+}
+
+.fa-map-location-dot{
+    color: #fe424b;
+    font-size: 2rem;
+}
+
+.nav-link{
+    color: #222222 !important ; 
+    /* !important :-- we are using bootstrap item and stylling this we help to overwrite the style */
+}
+
+/* Footer Container */
+.f-info {
+  text-align: center;
+  background-color: #ebebeb;
+  display: flex;
+  flex-direction: column;  /* Stack items vertically */
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 0;
+  margin-top: auto;        /* Push footer to bottom when content is short */
+  min-height: 8rem;
+  border-top: 1px solid #ddd;
+}
+
+/* Social Icons */
+.f-info-socials i {
+  margin: 0 0.6rem;
+  font-size: 1.3rem;
+  color: #222;
+  transition: color 0.2s ease;
+}
+
+.f-info-socials i:hover {
+  color: #ff385c; /* Airbnb-like hover color */
+}
+
+/* Links Section */
+.f-info-links a {
+  text-decoration: none;
+  color: #222;
+  margin: 0 0.5rem;
+}
+
+.f-info-links a:hover {
+  text-decoration: underline;
+  color: #ff385c;
+}
+
+/* Footer Brand */
+.f-info-brand {
+  font-weight: 500;
+  margin-top: 0.3rem;
+  color: #444;
+}
+
+/* cards */
+.listing-card {
+    border: none !important;
+    margin-bottom:2rem ;
+}
+.card-img-top {
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+
+}
+.card-body {
+    padding: 0 !important;
+}
+
+.card-text p {
+    font-weight: 400 !important;
+}
+
+.listing-link {
+    text-decoration: none;
+}
+
+/* card effect */
+.card-img-overlay {
+    opacity: 0;
+}
+
+.card-img-overlay:hover {
+    opacity: 0.3;
+    background-color: white;
+}
+
+/* new page */
+.add-btn {
+    background-color: #fe424b !important;
+    border: none !important;
+}
+
+/* edit page */
+.edit-btn {
+     background-color: #fe424b !important;
+    border: none !important;
+}
+
+/* show page  */
+.show-imp {
+    height: 30vh;
+}
+
+.btns {
+    display: flex;
+}
+
+.show-card {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#map {
+  height: 400px;
+  width: 100%;
+  border-radius: 12px;
+}
+
+
+
+
+
